@@ -20,13 +20,13 @@ const MyJumbotron = (props) => {
         <Jumbotron className="m-5 shadow-sm" id="jumbotron">
         <Row>
         <Col md={6}>
-            <h2 className="ml-4">Stockholm <FontAwesomeIcon icon={isFavorite ? faStarSolid : faStar} onClick={onFavorite} style={{color: "#F8C146", fontSize: "27px"}}/></h2>
+            <h2 className="ml-4 ">London <FontAwesomeIcon  onClick={onFavorite} style={{color: "#F8C146", fontSize: "27px"}}/></h2>
             <h5 className="text-muted ml-4">
-                Stockholm, Stockholm Municipality, Sweden
+               London,United Kingdom
             </h5>
         </Col>
         <Col md={6}>
-            <h5>Current weather</h5>
+            <h5 className="text-white">Current weather</h5>
         <Row>
             <Col md={1}>
                 <img className="" src="https://www.frozenropes.com/natick/wp-content/uploads/sites/11/2021/06/sun-transparent.png" width="60px" height="60px"/>

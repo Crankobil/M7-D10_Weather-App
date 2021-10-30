@@ -12,7 +12,7 @@ function Home() {
 
     const fetchWeather = async () => {
         try {
-            const response = await fetch("https://api.openweathermap.org/data/2.5/onecall?lat=59.334591&lon=18.063240&appid=db532a93abb61818899e98b3f8a5c286")
+            const response = await fetch("https://api.openweathermap.org/data/2.5/onecall?lat=59.334591&lon=18.063240&appid=1b25abe84f90a06257042c4007b1dde3")
 
             if (response.ok) {
                 const weatherResponse = await response.json()
